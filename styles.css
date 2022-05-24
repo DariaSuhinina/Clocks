@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(./font/Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+  background: linear-gradient(90deg, #8A2BE2, #FF1493);
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.clocks {
+  margin: 20% auto;
+  width: 50%;
+  height: 200px;
+  border-radius: 20px;
+  background-color: rgba(255, 192, 203, .4);
+  display: flex;
+  justify-content: space-around;
+  font-size: 80px;
+  padding: 50px 0px;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+}
+
+
